@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: black;
+    padding: 5px;
+    color: white ;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin-right: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#products{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.product{
+    border: 1px solid ;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.web{
+    font-weight: bold;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    height: 40px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+
